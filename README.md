@@ -7,3 +7,28 @@ TF-IDF: convert the words into vector based on the frequency of the word.
 Split the data set into 30% testing data and 70% training datatset.  
 Then provided the training dataset to NaiveBayesMultinomial model.  
 
+
+## Project Structure
+
+- `emails.csv`: Dataset containing email texts labeled as spam (1) or ham (0).
+- `email_classifier.ipynb`: Jupyter notebook containing the code for preprocessing, training the classifier, and evaluating its performance.
+- `README.md`: This file, providing an overview of the project.
+
+## Setup
+
+### Libraries Used
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `sqlite3`
+- `sklearn`
+- `nltk`
+
+### Installation
+
+To run the code, install the required libraries:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn nltk
